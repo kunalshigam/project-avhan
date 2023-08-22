@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.vertical-line {
+  position: absolute;
+  left: 10%; 
+  top: 0;
+  bottom: 0;
+  width: 1px; 
+  height: 100%;
+  background-color: #000; 
+  content: ''; 
+}
+
+
+.rounded-textfield {
+  display: block;
+  width: 100%; 
+  margin: 0 auto; 
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  box-sizing: border-box; 
+  direction: ltr;
+}
+
+.rounded-textfield:focus {
+  border-color: #007bff;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+}
+
+.editIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px; 
+  height: 24px; 
+  cursor: pointer;
+  
+}
+
+
+
+.horizontal-line {
+  width: 100%; 
+  margin: 0 auto;
+  background-color: #0502c7;
+}
+
+
+.bgColor{
+  background-color: #c5dbf3;
+  height: 100%;
+}
+
